@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Security Engineer Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+            color: #333; /* Dark text color */
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #e0e0e0;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header/Hero Section -->
+    <header class="relative bg-gradient-to-r from-blue-600 to-purple-700 text-white py-20 px-4 sm:px-6 lg:px-8 shadow-lg rounded-b-3xl">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4 animate-fade-in-down">
+                Oluwaseyi Serah Ojapinwa's Cloud Security Portfolio
+            </h1>
+            <p class="text-lg sm:text-xl lg:text-2xl font-light opacity-90 animate-fade-in-up">
+            Cloud Security Engineer
+            </p>
+            <div class="mt-8">
+                <a href="#projects" class="inline-block bg-white text-blue-700 hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                    View My Projects
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto bg-white p-8 rounded-xl shadow-md">
+            <h2 class="text-3xl font-bold text-center mb-6 text-gray-800">About Me</h2>
+            <p class="text-lg text-gray-700 leading-relaxed text-center">
+                Hello! I am Oluwaseyi Serah Ojapinwa, a Cloud Security Engineer passionate about securing cloud environments across AWS, Azure, and GCP. I'm eager to apply my foundational knowledge in IAM, network security, data protection, and incident response to build robust and resilient cloud infrastructures. This portfolio showcases my journey, skills, and future projects aimed at tackling real-world cloud security challenges.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-100">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-10 text-gray-800">My Cloud Security Toolkit</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- AWS Skills Card -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold mb-4 text-blue-600">AWS Security</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li><strong class="font-medium">IAM:</strong> Identity & Access Management for secure permissions.</li>
+                        <li><strong class="font-medium">VPC:</strong> Secure Virtual Private Clouds with network segmentation.</li>
+                        <li><strong class="font-medium">Security Groups:</strong> Firewall rules at the instance level.</li>
+                        <li><strong class="font-medium">KMS:</strong> Key Management Service for encryption.</li>
+                        <li><strong class="font-medium">GuardDuty:</strong> Intelligent threat detection.</li>
+                        <li><strong class="font-medium">CloudTrail:</strong> Logging and monitoring API activity.</li>
+                        <li><strong class="font-medium">Config:</strong> Configuration compliance and auditing.</li>
+                    </ul>
+                </div>
+
+                <!-- Azure Skills Card -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold mb-4 text-cyan-600">Azure Security</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li><strong class="font-medium">NSGs:</strong> Network Security Groups for traffic filtering.</li>
+                        <li><strong class="font-medium">Azure AD:</strong> Identity and access management in Azure.</li>
+                        <li><strong class="font-medium">Defender for Cloud:</strong> Unified security management and threat protection.</li>
+                        <li><strong class="font-medium">Key Vault:</strong> Secure storage of secrets and keys.</li>
+                        <li><strong class="font-medium">Sentinel:</strong> Cloud-native SIEM for intelligent security analytics.</li>
+                    </ul>
+                </div>
+
+                <!-- GCP Skills Card -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
+                    <h3 class="text-2xl font-semibold mb-4 text-red-600">GCP Security</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li><strong class="font-medium">IAM:</strong> Identity & Access Management for resource access control.</li>
+                        <li><strong class="font-medium">VPC Service Controls:</strong> Data exfiltration prevention.</li>
+                        <li><strong class="font-medium">Cloud Security Scanner:</strong> Vulnerability scanning for App Engine, Compute Engine, and GKE.</li>
+                        <li><strong class="font-medium">Chronicle:</strong> Cloud-native SIEM for enterprise security analytics.</li>
+                        <li><strong class="font-medium">KMS:</strong> Key Management Service for cryptographic keys.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Projects Section -->
+    <section id="projects" class="py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-10 text-gray-800">Future Portfolio Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Project Card 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/600x350/B8C2CC/000000?text=Project+Image+1" alt="Project 1 Placeholder" class="rounded-lg mb-4 w-full h-48 object-cover">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Secure AWS S3 Bucket Configuration</h3>
+                    <p class="text-gray-600 mb-4 text-sm">
+                        A project focused on implementing least privilege access, encryption, and public access blocking for S3 buckets using IAM policies, KMS, and bucket policies.
+                    </p>
+                    <a href="#" class="text-blue-600 hover:text-blue-800 font-medium text-sm">Learn More &rarr;</a>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/600x350/B8C2CC/000000?text=Project+Image+2" alt="Project 2 Placeholder" class="rounded-lg mb-4 w-full h-48 object-cover">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Azure Network Security Group Hardening</h3>
+                    <p class="text-gray-600 mb-4 text-sm">
+                        Demonstrating the setup of robust NSG rules for virtual networks and subnets to control inbound/outbound traffic, enhancing application security.
+                    </p>
+                    <a href="#" class="text-blue-600 hover:text-blue-800 font-medium text-sm">Learn More &rarr;</a>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/600x350/B8C2CC/000000?text=Project+Image+3" alt="Project 3 Placeholder" class="rounded-lg mb-4 w-full h-48 object-cover">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">GCP IAM Best Practices Implementation</h3>
+                    <p class="text-gray-600 mb-4 text-sm">
+                        A project illustrating fine-grained access control with GCP IAM roles, service accounts, and conditional policies to enforce security principles.
+                    </p>
+                    <a href="#" class="text-blue-600 hover:text-blue-800 font-medium text-sm">Learn More &rarr;</a>
+                </div>
+
+                <!-- Add more project cards as needed -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action / Contact Section -->
+    <section id="contact" class="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-purple-700 text-white rounded-t-3xl shadow-lg">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Let's Connect!</h2>
+            <p class="text-lg mb-8 opacity-90">
+                I'm always looking for new opportunities and collaborations. Feel free to reach out!
+            </p>
+            <div class="space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="mailto:sarahseyifunmi.com" class="inline-block bg-white text-blue-700 hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                    Email Me
+                </a>
+                <a href="#" target="_blank" class="inline-block bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-700 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                    LinkedIn Profile
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 text-center rounded-t-3xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p>&copy; 2025 Oluwaseyi Serah Ojapinwa. All rights reserved.</p>
+            <p class="mt-2 text-sm opacity-80">Built with <a href="https://tailwindcss.com/" target="_blank" class="text-blue-400 hover:underline">Tailwind CSS</a>.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
